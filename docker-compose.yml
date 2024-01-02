@@ -1,0 +1,12 @@
+version: "3.3"
+
+services: 
+  falco-sidekick:
+    environment: []
+    build:
+      context: .
+      dockerfile: Dockerfile
+      args:
+        - FALCO_SRC_PATH=falco_src
+    ports: 
+      - 2801:2801
