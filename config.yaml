@@ -1,6 +1,0 @@
----
-quickwit:
-  hostport: http://localhost:7280
-  mutualtls: false
-  checkcert: false
-  minimumpriority: debug

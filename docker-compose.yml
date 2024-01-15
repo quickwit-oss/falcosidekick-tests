@@ -9,7 +9,5 @@ services:
       dockerfile: Dockerfile
       args:
         - FALCO_SRC_PATH=falco_src
-    volumes:
-      - ./config.yaml:/etc/falcosidekick/config.yaml:z
     ports: 
       - 2801:2801
