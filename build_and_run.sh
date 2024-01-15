@@ -13,4 +13,4 @@ git stash clear
 git pull --rebase
 cd -
 
-docker-compose build
+docker-compose up --build

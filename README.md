@@ -5,5 +5,5 @@ Coming from [this gist](https://gist.github.com/Issif/8236641b072d4ef409a3ceac89
 ## Getting started
 
 ```shell
-go run main.go
+./build_and_run.sh
 ```

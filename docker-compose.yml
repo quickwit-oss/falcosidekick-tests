@@ -2,7 +2,8 @@ version: "3.3"
 
 services: 
   falco-sidekick:
-    environment: []
+    environment:
+      - .env
     build:
       context: .
       dockerfile: Dockerfile
