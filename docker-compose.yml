@@ -2,7 +2,7 @@ version: "3.3"
 
 services: 
   falco-sidekick:
-    environment:
+    env_file:
       - .env
     build:
       context: .
