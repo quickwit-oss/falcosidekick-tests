@@ -17,7 +17,7 @@ RUN make falcosidekick
 FROM ${BASE_IMAGE} AS final-stage
 LABEL MAINTAINER "Idriss Neumann <idriss.neumann@comwork.io>"
 
-RUN apk add --update --no-cache ca-certificates
+RUN apk add --update --no-cache ca-certificates curl
 
 # Create user falcosidekick
 RUN addgroup -S falcosidekick && adduser -u 1234 -S falcosidekick -G falcosidekick

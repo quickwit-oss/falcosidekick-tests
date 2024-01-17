@@ -9,5 +9,7 @@ services:
       dockerfile: Dockerfile
       args:
         - FALCO_SRC_PATH=falco_src
+    extra_hosts:
+      - "host.docker.internal:host-gateway"
     ports: 
       - 2801:2801
